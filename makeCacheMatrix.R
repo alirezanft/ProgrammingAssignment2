@@ -1,3 +1,4 @@
+# makeCacheMatrix creates a special “matrix”, which is really a list containing a function to: set/get the value of matrix and its inverse
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         set <- function(y) {
